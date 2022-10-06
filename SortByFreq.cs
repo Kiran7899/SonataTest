@@ -5,7 +5,6 @@ public class Program
 	Dictionary<int,int> Freq = new Dictionary<int,int>();
 	public static void Main()
 	{
-		Console.WriteLine("Hello World");
 		List<int> arr = new List<int>() {8,8,9,10};
 		new Program().SortFreq(arr);
 		
